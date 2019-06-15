@@ -1,0 +1,43 @@
+.nav{
+  background-color: aqua;
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
+.logo{
+  width: 40%;
+  font-size: 30px;
+}
+.logo p{
+  margin: 0%;
+}
+
+.links{
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+.razmer{
+  width: 300px;
+  height: 200px; 
+
+}
+.ramka {
+  background-color: rgb(149, 20, 235);
+  border: 1px dashed rgb(111, 0, 255);
+}
+
+.ramka-2 {
+  background-color: rgb(207, 132, 45);
+  border: 1px dashed rgb(111, 0, 255);
+}
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.cont-2 {
+  display: flex;
+  justify-content: center;
+}
